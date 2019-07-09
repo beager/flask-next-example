@@ -8,12 +8,12 @@ Next.js frontend and Flask backend without an all-or-nothing cutover.
 
 ## How to run this
 
-1. Render Next.js static assets\
+### Render Next.js static assets
 ```
 yarn install
 yarn build
 ```
-1. Run the Flask app\
+### Run the Flask app
 ```
 pip install requirements.txt
 FLASK_APP=app.py flask run
